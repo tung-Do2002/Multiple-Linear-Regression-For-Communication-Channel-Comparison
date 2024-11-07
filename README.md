@@ -23,14 +23,13 @@ This project analyzes the effectiveness of various communication channels, inclu
 
 R² Scores:
 
-Train R² = 0.890: The model explains 89% of the variance in the training data, which suggests a good fit.
-Test R² = 0.918: The model explains 91.8% of the variance in the test data, slightly higher than in the training set, indicating that the model generalizes well.
+- Train R² = 0.890: The model explains 89% of the variance in the training data, which suggests a good fit.
+- Test R² = 0.918: The model explains 91.8% of the variance in the test data, slightly higher than in the training set, indicating that the model generalizes well.
 Residual Distribution:
 
-The residuals (differences between actual and predicted values) are spread fairly symmetrically around the zero line, showing no strong pattern, which suggests that the model has captured the main trends without significant bias.
-The histogram on the right shows the residual distribution, which appears roughly normal, suggesting that the model errors are randomly distributed. This is a good sign for linear regression as it indicates no significant skewness or outliers.
-Model Fit:
+The residuals (differences between actual and predicted values) are spread fairly symmetrically around the zero line, showing no strong pattern, which suggests that the model has captured the main trends without significant bias.The histogram on the right shows the residual distribution, which appears roughly normal, suggesting that the model errors are randomly distributed. This is a good sign for linear regression as it indicates no significant skewness or outliers.
 
+Model Fit:
 The residuals tend to be closer to zero, which implies that predictions are relatively accurate. However, there are some data points with higher residuals, suggesting a few observations where the model’s predictions were less accurate
 
 5. **Impact on Brand Metrics**
